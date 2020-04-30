@@ -1,0 +1,27 @@
+{
+  "name": "reasonable-todo",
+  "version": "1.0.0",
+  "description": "A simple todo app to test out reason-react",
+  "main": "src/index.re",
+  "author": "Fahad Hossain <set.name.fahad@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reason-react": "^0.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@svgr/parcel-plugin-svgr": "^5.4.0",
+    "bs-platform": "^7.2.2",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}

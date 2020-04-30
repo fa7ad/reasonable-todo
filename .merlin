@@ -1,0 +1,16 @@
+####{BSB GENERATED: NO EDIT
+B lib/bs
+FLG -open ReasonableTodo
+FLG -ppx '/Users/fahad/Documents/mine/reasonable-todo/node_modules/bs-platform/darwin/bsc.exe -as-ppx -bs-jsx 3'
+S /Users/fahad/Documents/mine/reasonable-todo/node_modules/bs-platform/lib/ocaml
+B /Users/fahad/Documents/mine/reasonable-todo/node_modules/bs-platform/lib/ocaml
+FLG -w +a-4-9-40-41-42-50-61-102
+S /Users/fahad/Documents/mine/reasonable-todo/node_modules/reason-react/lib/ocaml
+B /Users/fahad/Documents/mine/reasonable-todo/node_modules/reason-react/lib/ocaml
+S src
+B lib/bs/src
+S src/store
+B lib/bs/src/store
+S src/components
+B lib/bs/src/components
+####BSB GENERATED: NO EDIT}
