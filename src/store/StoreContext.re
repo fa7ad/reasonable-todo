@@ -3,8 +3,8 @@ type ui =
   | Color(string);
 
 type uiActions =
-  | UiBlack
-  | UiColor(string);
+  | GoBlack
+  | GoColor(string);
 
 type state = {ui};
 type dispatch = uiActions => unit;
@@ -20,6 +20,6 @@ let useDispatch = () => React.useContext(dispatchCtx);
 
 let reducer = (_state, action) =>
   switch action {
-  | UiBlack => {ui: Black}
-  | UiColor(color) => {ui: Color(color)}
+  | GoBlack => {ui: Black}
+  | GoColor(color) => {ui: Color(color)}
   };

@@ -8,11 +8,25 @@ module Logo = {
 [@react.component]
 let make = () => {
   let state = useStore();
+  let dispatch = useDispatch();
 
-  let className = switch state {
+  let className =
+    switch (state) {
     | {ui: Black} => "black"
     | {ui: Color(c)} => c
+    };
+
+  let onClick = _e => {
+    let action =
+      switch (state.ui) {
+      | Black => GoColor("red")
+      | Color(_c) => GoBlack
+      };
+    dispatch(action);
   };
 
-  <> <Logo className=className /> <h1> {React.string("Hello, world!")} </h1> </>;
+  <div onClick>
+    <Logo className />
+    <h1> {React.string("Hello, world!")} </h1>
+  </div>;
 };
