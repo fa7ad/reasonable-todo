@@ -1,0 +1,16 @@
+svg {
+  height: 4em;
+}
+
+.black g {
+  fill: black !important;
+}
+.red g {
+  fill: red !important;
+}
+.blue g {
+  fill: blue !important;
+}
+.green g {
+  fill: green !important;
+}

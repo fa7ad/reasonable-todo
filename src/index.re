@@ -1,5 +1,9 @@
 open StoreProvider;
 
+[%raw "
+require('./style/style.css')
+"];
+
 module MyApp = {
   [@react.component]
   let make = () => {
