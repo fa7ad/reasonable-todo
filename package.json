@@ -13,7 +13,7 @@
     "reason-react": "^0.7.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.6",
+    "@babel/core": "^8.0.1",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "@svgr/parcel-plugin-svgr": "^5.4.0",
